@@ -5,10 +5,10 @@ export enum AppMode {
 }
 
 export type Gender = 'Nam' | 'Nữ';
-export type Region = 'Miền Bắc (Hà Nội)' | 'Miền Nam (Sài Gòn)' | 'Miền Trung (Huế/Đà Nẵng)' | 'Chuẩn (Trung lập)';
+export type Region = 'Miền Bắc (Hà Nội)' | 'Miền Nam (Sài Gòn)' | 'Miền Trung (Huế/Đà Nẵng)' | 'Chuẩn (Trung lập)' | 'Bắc Bộ (Giọng Cổ)' | 'Nam Bộ (Miền Tây)';
 export type Age = 'Trẻ em' | 'Thanh niên' | 'Trung niên' | 'Người già';
 export type Pitch = 'Trầm' | 'Trung bình' | 'Cao';
-export type Intonation = 'Tự nhiên' | 'Vui vẻ' | 'Trầm buồn' | 'Trang trọng' | 'Kịch tính' | 'Hào hứng';
+export type Intonation = 'Tự nhiên' | 'Vui vẻ' | 'Trầm buồn' | 'Trang trọng' | 'Kịch tính' | 'Hào hứng' | 'Thì thầm' | 'Hùng hồn';
 export type BaseVoice = 'Kore' | 'Puck' | 'Charon' | 'Fenrir' | 'Zephyr' | 'Leda' | 'Aoede';
 
 export interface VoiceProfile {
